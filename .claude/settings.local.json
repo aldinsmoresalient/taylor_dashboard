@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run test:run:*)",
+      "Bash(RUN_INTEGRATION_TESTS=true API_BASE_URL=http://localhost:3001 npm run test:run:*)",
+      "Bash(RUN_INTEGRATION_TESTS=true API_BASE_URL=http://localhost:3003 npm run test:run:*)",
+      "Bash(curl:*)",
+      "Bash(npx tsc:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)"
+    ]
+  }
+}
